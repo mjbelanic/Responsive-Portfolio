@@ -1,0 +1,222 @@
+html {
+    position: relative;
+ 	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Georgia","Times New Roman",Times,serif;
+}
+
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(../images/zwartevilt/zwartevilt.png); /*(../images/extra_clean_paper/extra_clean_paper.png);*/
+	color: #000b29;  /*#777777;*/
+	height: 100%;
+	margin: 0;
+}
+
+header{
+	margin: 0 auto;
+	padding: 50px;
+	border-bottom: 10px solid  #D70026; /* default color: #cccccc;*/
+    display: block;
+    position: relative;
+    top: 0;
+	background-color: #EDB83D; /*#ffffff;*/
+}
+
+#nameTitle{
+	padding: 34px;
+	background-color: #000B29; /*#4aaaa5;*/
+	font-size: xx-large;
+	color: #EDB83D; /*#ffffff;*/
+	text-align: center;
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 193px;
+}
+
+nav ul {
+    list-style: none;
+ }
+
+nav ul a{
+	float: right;
+	display: block;
+	font-size: larger;
+	position: relative;
+	right: 100px;
+	top: -20px;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	color: #000b29; /*#777777;*/
+}
+
+.container{
+	border-color: #dddddd;
+	clear: both;
+	width: 960px;
+	margin: 10px auto;
+	border: 10px;
+	display: inline-block;
+
+}
+
+#divHeader{
+	color: #000B29; /*#4aaaa5;*/
+	font-size: xx-large;
+	padding: 20px;
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+}
+
+hr{
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 0;
+	border-top: 3px solid #D70026; /*#cccccc;*/
+}
+
+#bio-image{
+	width: 200px;
+	height: 200px;
+	padding: 20px 5px 5px 15px;
+}
+
+#main-bio{
+	width: 650px;
+	position: relative;
+	left:188px;
+	top: 20px;
+}
+
+#main-bio,
+#webLinks,
+#bio-image{
+	float: left;
+	background-color: #F8F5F2; /*#ffffff;*/
+	margin: 5px;
+}
+
+p{
+	line-height: 2;
+	padding: 0px 20px 5px 20px;
+	text-align: justify;
+}
+
+form{
+	line-height: 1;
+	position: relative;
+	left: 20px;
+	margin: 0 auto;
+	padding: 0px 5px 30px 5px;
+}
+
+form ul{
+	line-height: 2;
+}
+
+input,
+label{
+	width: 90%;
+}
+
+.formLabel{
+	padding: 5px 0px 5px 0px;
+	margin-top: 5px;
+}
+
+input{
+	padding:  5px 10px 5px 10px;
+}
+
+button{
+	background-color: #000B29; /*#4aaaa5;*/
+	border: 1px solid #000B29; /*#4aaaa5;*/
+	color: white;
+	margin-top: 20px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: medium;
+}
+
+button:hover{
+	background-color: #fff;
+	color:  #000B29; /*#4aaaa5;*/
+}
+
+h2{
+	font-size: 24px;
+	color: #000B29;/*#4aaaa5;*/
+}
+
+#webLinks{
+	text-align: center;
+	width: 270px;
+	padding: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	left: 250px;
+	top: 20px;
+}
+
+.Weblogo{
+	height: 65px;
+    width: 65px;
+    margin: 5px;
+}
+
+.portfolioImgDiv{
+	display: inline-block;
+	padding: 20px;
+	position: relative;
+	left: 25px;
+}
+
+.imgTitle{
+	background-color: #000B29; /*#4aaaa5;*/
+    color: white;
+    text-align: center;
+    font-size: larger;
+    width: 190px;
+    padding: 30px;
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+}
+
+#wrapper{
+	min-height: 100%;
+	margin-bottom: -100px;
+}
+
+#wrapper:after{
+	display: block;
+}
+
+#wrapper:after, footer{
+	content: "";
+	height: 100px;
+}
+
+footer{
+	clear: both;
+	display: inline-block;
+	background-color: #D70026; /*#666666;*/
+    width: 100%;
+    margin-top: 50px;
+    border-top: 10px solid #000B29; /*#4aaaa5;*/
+}
+
+footer p{
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+/*	color: white;*/
+}
