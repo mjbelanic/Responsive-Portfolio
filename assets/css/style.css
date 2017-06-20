@@ -319,11 +319,11 @@ footer p{
 		float: left;
 		margin: 0 auto;
 		margin-bottom: 40px;
-}
+	}
 
 	.portfolioImgDiv:nth-child(even) {
 		margin-right: 40px;
-}
+	}
 
 }
 
